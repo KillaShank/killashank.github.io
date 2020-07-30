@@ -672,6 +672,7 @@ input[type="button"] {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	margin-top: 10px;
 }
 .button:hover,
 a.button:hover,
@@ -1042,7 +1043,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #c30ce8;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -1513,7 +1514,7 @@ header .logo a {
 	margin-right: 30px;
 }
 .intro-info .lead {
-	text-align: left;
+	text-align: justify;
 	padding-left: 15rem;
 	color: black;
 }
@@ -1580,11 +1581,13 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 15rem;
+		width: 15rem;
+		margin-right: 0px;
 	}
 	.intro-info .lead {
-		padding-left: 11rem;
+		padding-left: 17rem;
+		text-align: justify;
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1604,16 +1607,18 @@ header .logo a {
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
+
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 15rem;
+		width: 15rem;
 		float: none;
 		display: inline-block;
+		margin-right: 0px;
 	}
 	.intro-info .lead {
 		padding-left: 0;
-		text-align: center;
+		text-align: justify;
 	}
 }
 
@@ -2137,7 +2142,7 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
+	padding-top: 5rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
