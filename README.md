@@ -13,5 +13,5 @@ Built using:
 [CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
 [git](https://git-scm.com/) for source control
 
-View it here: [killashankt.tech](http://killashank.tech/)
+View it here: [killashank.tech](http://killashank.tech/)
 
